@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #AE681A;
+    color: #fff;
+}
+
+.bigBox {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+/* figura btns block */
+
+.figura__box button {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #fff;
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0px 0px 20px 12px rgba(0,0,0,0.42); 
+    box-shadow: inset 0px 0px 20px 12px rgba(0,0,0,0.42);
+}
+
+
+.btnHorse {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.btnHorse img {
+    width: 45px;
+    height: 45px;
+}
+
+
+.btnParent {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chesList {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.figura__box {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cordinata-x {
+    padding-top: 14px;
+    width: 120px;
+    height: 50px;
+    background-color: #fff;
+    color: #8f5903;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: 24px;
+    -webkit-box-shadow: inset 0px 0px 20px 12px rgba(0,0,0,0.42); 
+    box-shadow: inset 0px 0px 20px 12px rgba(0,0,0,0.42);
+    border-radius: 6px;
+}
+
+.cordinata-y {
+    padding-top: 14px;
+    width: 120px;
+    height: 50px;
+    background-color: #fff;
+    color: #975e02;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 24px;
+    -webkit-box-shadow: inset 0px 0px 20px 12px rgba(0,0,0,0.42); 
+    box-shadow: inset 0px 0px 20px 12px rgba(0,0,0,0.42);
+    border-radius: 6px;
+}
+
+.cordinataBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.chesItem:hover {
+    -webkit-box-shadow: inset 0px 0px 31px 12px rgba(222,0,0,0.79); 
+    box-shadow: inset 0px 0px 31px 12px rgba(222,0,0,0.79);
+}
+
+.red {
+    -webkit-box-shadow: inset 0px 0px 31px 12px rgba(222,0,0,0.79); 
+    box-shadow: inset 0px 0px 31px 12px rgba(222,0,0,0.79);
+}
+
+.green {
+    -webkit-box-shadow: inset 0px 0px 31px 14px #1CBF0D; 
+    box-shadow: inset 0px 0px 31px 14px #1CBF0D;
+}
+
+.yellow {
+    background: gold !important;
+}
+
+.gold {
+    background: gold;
+}
+
+.list{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 492px;
+    height: 530px;
+    list-style-type: none;
+    border: 6px solid rgb(104, 59, 0);
+    border-radius: 8px;
+    background-color: rgb(104, 59, 0);
+    /* overflow-y: hidden; */
+    /* color: transparent;  */
+}
+.list li{
+    width: 60px;
+    height: 65px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.bigBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnParent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+}
+
+.box {
+    width: 800px;
+}
+
+/* buttons add */
+
+.tora1 {
+    background-color: #fff !important;
+    background-image: url("..//imgs/tora.svg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border: 1px solid rgb(105, 60, 1);
+}
+.tora2 {
+    background-color: #fff !important;
+    background-image: url("..//imgs/tora.svg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border: 1px solid rgb(105, 60, 1);
+}
+.blackHorse1 {
+    background-color: #fff !important;
+    background-image: url("..//imgs/ot.svg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border: 1px solid rgb(105, 60, 1);
+}
+.blackHorse2 {
+    background-color: #fff !important;
+    background-image: url("..//imgs/ot.svg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border: 1px solid rgb(105, 60, 1);
+}
+.fil1 {
+    background-color: #fff !important;
+    background-image: url("..//imgs/fil.svg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border: 1px solid rgb(105, 60, 1);
+}
+.fil2 {
+    background-color: #fff !important;
+    background-image: url("..//imgs/fil.svg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border: 1px solid rgb(105, 60, 1);
+}
+.shoh {
+    background-color: #fff !important;
+    background-image: url("..//imgs/shox.svg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border: 1px solid rgb(105, 60, 1);
+}
+.vazir {
+    background-color: #fff !important;
+    background-image: url("..//imgs/malika.svg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border: 1px solid rgb(105, 60, 1);
+}
+.piyoda1 {
+    background-color: #fff !important;
+    background-image: url("..//imgs/piyoda.svg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border: 1px solid rgb(105, 60, 1);
+}
+.piyoda2 {
+    background-color: #fff !important;
+    background-image: url("..//imgs/piyoda.svg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border: 1px solid rgb(105, 60, 1);
+}
+.piyoda3 {
+    background-color: #fff !important;
+    background-image: url("..//imgs/piyoda.svg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border: 1px solid rgb(105, 60, 1);
+}
+.piyoda4 {
+    background-color: #fff !important;
+    background-image: url("..//imgs/piyoda.svg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border: 1px solid rgb(105, 60, 1);
+}
+.piyoda5 {
+    background-color: #fff !important;
+    background-image: url("..//imgs/piyoda.svg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border: 1px solid rgb(105, 60, 1);
+}
+.piyoda6 {
+    background-color: #fff !important;
+    background-image: url("..//imgs/piyoda.svg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border: 1px solid rgb(105, 60, 1);
+}
+.piyoda7 {
+    background-color: #fff !important;
+    background-image: url("..//imgs/piyoda.svg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border: 1px solid rgb(105, 60, 1);
+}
+.piyoda8 {
+    background-color: #fff !important;
+    background-image: url("..//imgs/piyoda.svg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border: 1px solid rgb(105, 60, 1);
+}
+
